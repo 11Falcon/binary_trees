@@ -19,6 +19,11 @@ int binary_tree_balance(const binary_tree_t *tree)
 		right = binary_tree_height(tree->right);
 	return (left - right);
 }
+/**
+ * binary_tree_height - measuring the height of th binary tree
+ * @tree: the tree to measure
+ * Return: the height
+ */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
         if (!tree)
